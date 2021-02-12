@@ -5,7 +5,7 @@ module.exports = {
   info: {
     name: "skipto",
     description: "Skip to the selected queue number",
-    usage: "skipto <number>",
+    usage: "<number>",
     aliases: ["st"],
   },
 

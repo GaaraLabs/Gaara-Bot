@@ -5,8 +5,8 @@ module.exports = {
     info: {
         name: "leave",
         aliases: ["goaway", "disconnect"],
-        description: "Leave The Voice Channel!",
-        usage: "Leave",
+        description: "Leaves The Voice Channel!",
+        usage: "",
     },
 
     run: async function (client, message, args) {
@@ -22,7 +22,7 @@ module.exports = {
         }
 
         const Embed = new MessageEmbed()
-            .setAuthor("Leave Voice Channel", "https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/Music.gif")
+            .setAuthor("Leave Voice Channel", "https://cdn.discordapp.com/attachments/807523516915384320/809777982930681876/ezgif.com-gif-maker.gif")
             .setColor("GREEN")
             .setTitle("Success")
             .setDescription("🎶 Left The Voice Channel.")

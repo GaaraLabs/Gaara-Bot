@@ -9,7 +9,7 @@ module.exports = {
     info: {
         name: "play",
         description: "To play songs :D",
-        usage: "<YouTube_URL> | <song_name>",
+        usage: "<YouTube_URL> <song_name>",
         aliases: ["p"],
     },
 
@@ -71,7 +71,7 @@ module.exports = {
         if (serverQueue) {
             serverQueue.songs.push(song);
             let thing = new MessageEmbed()
-                .setAuthor("Song has been added to queue", "https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/Music.gif")
+                .setAuthor("Song has been added to queue", "https://cdn.discordapp.com/attachments/807523516915384320/809777982930681876/ezgif.com-gif-maker.gif")
                 .setThumbnail(song.img)
                 .setColor("YELLOW")
                 .addField("Name", song.title, true)
@@ -97,10 +97,10 @@ module.exports = {
             const queue = message.client.queue.get(message.guild.id);
             if (!song) {
                 sendError(
-                    "Leaving the voice channel because I think there are no songs in the queue. If you like the bot stay 24/7 in voice channel go to `commands/play.js` and remove the line number 61\n\nThank you for using my code! [GitHub](https://github.com/SudhanPlayz/Discord-MusicBot)",
+                    "Leaving the voice channel because I think there are no songs in queue.",
                     message.channel
                 );
-                message.guild.me.voice.channel.leave(); //If you want your bot stay in vc 24/7 remove this line :D
+                message.guild.me.voice.channel.leave(); //null
                 message.client.queue.delete(message.guild.id);
                 return;
             }
@@ -129,7 +129,7 @@ module.exports = {
 
             dispatcher.setVolumeLogarithmic(queue.volume / 100);
             let thing = new MessageEmbed()
-                .setAuthor("Started Playing Music!", "https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/Music.gif")
+                .setAuthor("Started Playing Music!", "https://cdn.discordapp.com/attachments/807523516915384320/809777982930681876/ezgif.com-gif-maker.gif")
                 .setThumbnail(song.img)
                 .setColor("BLUE")
                 .addField("Name", song.title, true)
