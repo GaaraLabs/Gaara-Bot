@@ -1,5 +1,5 @@
 {
-  "name": "Discord-MusicBot",
+  "name": "Music-Bot",
   "description": "A node based music bot for discord",
   "repository": "https://github.com/micky0singh",
   "logo": "https://cdn.discordapp.com/attachments/807523516915384320/809773207015653396/Avatar.png",
@@ -20,7 +20,7 @@
     },
     "PREFIX": {
       "description": "The prfix you want to use with the bot.",
-      "value": "!"
+      "value": "m"
     }
   }  
 }
