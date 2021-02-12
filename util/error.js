@@ -1,7 +1,7 @@
 const { MessageEmbed } = require("discord.js")
 
 /**
- * Easy to send errors because im lazy to do the same things :p
+ * Easy to send errors because am lazy to do the same things
  * @param {String} text - Message which is need to send
  * @param {TextChannel} channel - A Channel to send error
  */
