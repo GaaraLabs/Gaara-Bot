@@ -5,9 +5,6 @@ A high quality & unique music bot which can give you information about views and
 ## Table of content
 
 * [Commands](#commands)
-* [Requirements](#requirements)
-* [Getting started](#getting-started)
-* [Common errors](#common-errors)
 * [Author](#author)
 * [License](#license)
 
