@@ -20,7 +20,7 @@ module.exports = {
         .setAuthor("Commands of "+client.user.username, "https://cdn.discordapp.com/attachments/807523516915384320/809777982930681876/ezgif.com-gif-maker.gif")
         .setColor("RED")
         .setDescription(allcmds)
-        .setFooter(`To get info of each command you can do ${client.config.prefix}help [command] | Open Source`)
+        .setFooter(`To get info of each command you can do ${client.config.prefix}help [command] | Gaara Labs`)
 
         if(!args[0])return message.channel.send(embed)
         else {
