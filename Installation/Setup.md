@@ -27,6 +27,7 @@ After cloning the project and installing all dependencies, you need to add your 
 ### Starting the application
 
 ```bash
+# Run the bot
 node index.js
 ```
 
