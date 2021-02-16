@@ -9,7 +9,8 @@
 Make sure you have installed all required packages in your pc or virtual machine.
 
 ### Installation
-bash
+
+```bash
 # Clone the repository
 git clone https://github.com/micky0singh/Gaara-Bot.git
 
@@ -18,10 +19,14 @@ cd Gaara-Bot/
 
 # Install the dependencies
 npm install
+```
 ### Configuration
 
 After cloning the project and installing all dependencies, you need to add your bot token and prefix in `.env` file
 
 ### Starting the application
-bash
+
+```bash
 node index.js
+```
+Now you are all done to use your bot. If you face any bug or want to report contact me on Discord `MiCKY#4519 or email me at sahnisatinder2@gmail.com 🙃
