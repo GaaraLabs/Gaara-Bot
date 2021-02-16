@@ -18,7 +18,7 @@ A high quality & unique music bot which can give you information about views and
 - `m!lyrics`  ~ Get lyrics for the currently playing song
 - `m!nowplaying`  ~ To show the music which is currently playing in this server
 - `m!pause`  ~ To pause the current music in the server
-- `m!play` ~ <YouTube_URL> <song_name> To play songs
+- `m!play` ~ <YouTube_URL> or <song_name> To play songs
 - `m!playlist` ~ <YouTube Playlist URL> or <Playlist Name> To play songs
 - `m!queue`  ~ To show the server songs queue
 - `m!remove` ~ Remove song from the queue
