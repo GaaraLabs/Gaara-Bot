@@ -10,7 +10,6 @@ A high quality & unique music bot which can give you information about views and
 
 ## Commands
 
-- `m!AI`  ~ Our new in development chatbot AI
 - `m!help`  ~ To show all commands
 - `m!invite`  ~ To add/invite the bot to your server
 - `m!leave`  ~ Leaves The Voice Channel!
@@ -27,9 +26,13 @@ A high quality & unique music bot which can give you information about views and
 - `m!shuffle`  ~ Shuffle queue
 - `m!skip` ~ To skip the current music
 - `m!skipto` ~ Skip to the selected queue number
-- `m!stats`  ~ Gives bot's uptime link
 - `m!stop`  ~ To stop the music and clearing the queue
 - `m!volume` ~ To change the server song queue volume
+
+## 💨 Run the projects
+Glitch: [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/micky0singh/Gaara-Bot)
+Repl: [![Run on Repl.it](https://repl.it/badge/github.com/micky0singh/Gaara-Bot)](https://repl.it/https://github.com/micky0singh/Gaara-Bot)
+Heroku: [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/micky0singh/Gaara-Bot)
 
 ## Author
 
