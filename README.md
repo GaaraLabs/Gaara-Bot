@@ -11,24 +11,24 @@ A high quality & unique music bot which can give you information about views and
 
 ## Commands
 
-- `m!help`  ~ To show all commands
-- `m!invite`  ~ To add/invite the bot to your server
-- `m!leave`  ~ Leaves The Voice Channel!
-- `m!loop`  ~ Toggle music loop
-- `m!lyrics`  ~ Get lyrics for the currently playing song
-- `m!nowplaying`  ~ To show the music which is currently playing in this server
-- `m!pause`  ~ To pause the current music in the server
-- `m!play` ~ <YouTube_URL> or <song_name> To play songs
-- `m!playlist` ~ <YouTube Playlist URL> or <Playlist Name> To play songs
-- `m!queue`  ~ To show the server songs queue
-- `m!remove` ~ Remove song from the queue
-- `m!resume`  ~ To resume the paused music
-- `m!search` ~ To search songs
-- `m!shuffle`  ~ Shuffle queue
-- `m!skip` ~ To skip the current music
+- `m!help` ~ To show all the commands.
+- `m!invite` ~ To invite the bot in your server.
+- `m!leave` ~ To disconnect The Voice Channel.
+- `m!loop` ~ To toggle loop.
+- `m!lyrics` ~ To get lyrics of the current track.
+- `m!nowplaying` ~ To show the current track.
+- `m!pause` ~ To pause the current track.
+- `m!play` <youtube_url> or <song_name> ~ To play the first track in the search results.
+- `m!playlist` <youtube_url> or <playlist_name> ~ To play songs from a public playlist from Youtube or Spotify.
+- `m!queue` ~ To show the current song queue.
+- `m!remove` ~ To remove a song from the queue.
+- `m!resume` ~ To resume the current track.
+- `m!search` ~ To obtain a list of videos from youtube with similar titles.
+- `m!shuffle` ~ To shuffle the queue.
+- `m!skip` ~ To skip the current track.
 - `m!skipto` ~ Skip to the selected queue number
-- `m!stop`  ~ To stop the music and clearing the queue
-- `m!volume` ~ To change the server song queue volume
+- `m!stop` ~ To stop the current track and clear the current queue.
+- `m!volume` ~ To change the volume.
 
 ## Installation
 
