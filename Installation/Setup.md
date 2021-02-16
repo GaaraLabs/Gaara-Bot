@@ -29,4 +29,7 @@ After cloning the project and installing all dependencies, you need to add your 
 ```bash
 node index.js
 ```
-Now you are all done to use your bot. If you face any bug or want to report contact me on Discord `MiCKY#4519 or email me at sahnisatinder2@gmail.com 🙃
+
+##
+
+Now you are all done to use your bot. If you face any bug or want to report contact me on Discord `MiCKY#4519` or email me at sahnisatinder2@gmail.com 🙃
