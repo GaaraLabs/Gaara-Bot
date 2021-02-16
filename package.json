@@ -1,6 +1,6 @@
 {
   "name": "Gaara-Bot",
-  "version": "1.0",
+  "version": "3.0.0",
   "description": "A customised music bot",
   "main": "index.js",
   "license": "MIT",
