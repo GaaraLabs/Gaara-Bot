@@ -23,7 +23,7 @@ module.exports = {
 
         const Embed = new MessageEmbed()
             .setAuthor("Leave Voice Channel", "https://cdn.discordapp.com/attachments/807523516915384320/809777982930681876/ezgif.com-gif-maker.gif")
-            .setColor("GREEN")
+            .setColor("RED")
             .setTitle("Success")
             .setDescription("🎶 Left The Voice Channel.")
             .setTimestamp();

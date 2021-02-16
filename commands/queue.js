@@ -79,7 +79,7 @@ function generateQueueEmbed(message, queue) {
     const embed = new MessageEmbed()
      .setAuthor("Server Songs Queue", "https://cdn.discordapp.com/attachments/807523516915384320/809777982930681876/ezgif.com-gif-maker.gif")
     .setThumbnail(message.guild.iconURL())
-    .setColor("BLUE")
+    .setColor("RED")
     .setDescription(`${info}`)
     .addField("Now Playing", `[${queue[0].title}](${queue[0].url})`, true)
     .addField("Text Channel", serverQueue.textChannel, true)

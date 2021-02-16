@@ -23,7 +23,7 @@ module.exports = {
     let xd = new MessageEmbed()
     .setDescription(`I set the volume to: **${args[0]/1}/100**`)
     .setAuthor("Server Volume Manager", "https://cdn.discordapp.com/attachments/807523516915384320/809777982930681876/ezgif.com-gif-maker.gif")
-    .setColor("BLUE")
+    .setColor("RED")
     return message.channel.send(xd);
   },
 };

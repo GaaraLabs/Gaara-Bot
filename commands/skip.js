@@ -21,7 +21,7 @@ if(!serverQueue.connection.dispatcher)return
       serverQueue.connection.dispatcher.resume();
       let xd = new MessageEmbed()
       .setDescription("▶ Resumed the music for you!")
-      .setColor("YELLOW")
+      .setColor("RED")
       .setTitle("Music has been Resumed!")
        
    return message.channel.send(xd).catch(err => console.log(err));

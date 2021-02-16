@@ -16,7 +16,7 @@ module.exports = {
     let thing = new MessageEmbed()
       .setAuthor("Now Playing", "https://cdn.discordapp.com/attachments/807523516915384320/809777982930681876/ezgif.com-gif-maker.gif")
       .setThumbnail(song.img)
-      .setColor("BLUE")
+      .setColor("RED")
       .addField("Name", song.title, true)
       .addField("Duration", song.duration, true)
       .addField("Requested by", song.req.tag, true)

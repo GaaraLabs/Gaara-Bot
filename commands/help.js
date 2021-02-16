@@ -4,8 +4,8 @@ module.exports = {
     info: {
         name: "help",
         description: "To show all commands",
-        usage: "[command]",
-        aliases: ["commands", "help me", "pls help"]
+        usage: "",
+        aliases: ["commands", "help music", "h", "pls music"]
     },
 
     run: async function(client, message, args){
@@ -17,10 +17,10 @@ module.exports = {
         })
 
         let embed = new MessageEmbed()
-        .setAuthor("Commands of "+client.user.username, "https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/Music.gif")
-        .setColor("BLUE")
+        .setAuthor("Commands of "+client.user.username, "https://cdn.discordapp.com/attachments/807523516915384320/809777982930681876/ezgif.com-gif-maker.gif")
+        .setColor("RED")
         .setDescription(allcmds)
-        .setFooter(`To get info of each command you can do ${client.config.prefix}help [command] | Hander by ItzCutePikachu#2006`)
+        .setFooter(`To get info of each command you can do ${client.config.prefix}help [command] | Gaara Labs`)
 
         if(!args[0])return message.channel.send(embed)
         else {

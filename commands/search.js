@@ -9,7 +9,7 @@ const fs = require("fs");
 module.exports = {
     info: {
         name: "search",
-        description: "To search songs :D",
+        description: "To search songs",
         usage: "<song_name>",
         aliases: ["sc"],
     },
@@ -31,7 +31,7 @@ module.exports = {
             if (searched[0] == undefined) return sendError("Looks like i was unable to find the song on YouTube", message.channel);
             let index = 0;
             let embedPlay = new MessageEmbed()
-                .setColor("BLUE")
+                .setColor("RED")
                 .setAuthor(`Results for \"${args.join(" ")}\"`, message.author.displayAvatarURL())
                 .setDescription(`${searched.map((video2) => `**\`${++index}\`  |** [\`${video2.title}\`](${video2.url}) - \`${video2.durationFormatted}\``).join("\n")}`)
                 .setFooter("Type the number of the song to add it to the playlist");
@@ -87,7 +87,7 @@ module.exports = {
             let thing = new MessageEmbed()
                 .setAuthor("Song has been added to queue", "https://cdn.discordapp.com/attachments/807523516915384320/809777982930681876/ezgif.com-gif-maker.gif")
                 .setThumbnail(song.img)
-                .setColor("YELLOW")
+                .setColor("RED")
                 .addField("Name", song.title, true)
                 .addField("Duration", song.duration, true)
                 .addField("Requested by", song.req.tag, true)
@@ -145,7 +145,7 @@ module.exports = {
             let thing = new MessageEmbed()
                 .setAuthor("Started Playing Music!", "https://cdn.discordapp.com/attachments/807523516915384320/809777982930681876/ezgif.com-gif-maker.gif")
                 .setThumbnail(song.img)
-                .setColor("BLUE")
+                .setColor("RED")
                 .addField("Name", song.title, true)
                 .addField("Duration", song.duration, true)
                 .addField("Requested by", song.req.tag, true)

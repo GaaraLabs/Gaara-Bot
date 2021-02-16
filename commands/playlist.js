@@ -9,7 +9,7 @@ const fs = require("fs");
 module.exports = {
     info: {
         name: "playlist",
-        description: "To play songs :D",
+        description: "To play songs",
         usage: "<YouTube Playlist URL> or <Playlist Name>",
         aliases: ["pl"],
     },
@@ -35,7 +35,7 @@ module.exports = {
                 }
                 return message.channel.send({
                     embed: {
-                        color: "GREEN",
+                        color: "RED",
                         description: `✅  **|**  Playlist: **\`${videos[0].title}\`** has been added to the queue`,
                     },
                 });
@@ -59,7 +59,7 @@ module.exports = {
                 let thing = new MessageEmbed()
                     .setAuthor("Playlist has been added to queue", "https://cdn.discordapp.com/attachments/807523516915384320/809777982930681876/ezgif.com-gif-maker.gif")
                     .setThumbnail(songInfo.thumbnail)
-                    .setColor("GREEN")
+                    .setColor("RED")
                     .setDescription(`✅  **|**  Playlist: **\`${songInfo.title}\`** has been added \`${songInfo.videoCount}\` video to the queue`);
                 return message.channel.send(thing);
             } catch (error) {
@@ -107,7 +107,7 @@ module.exports = {
                 let thing = new MessageEmbed()
                     .setAuthor("Song has been added to queue", "https://cdn.discordapp.com/attachments/807523516915384320/809777982930681876/ezgif.com-gif-maker.gif")
                     .setThumbnail(song.img)
-                    .setColor("YELLOW")
+                    .setColor("RED")
                     .addField("Name", song.title, true)
                     .addField("Duration", song.duration, true)
                     .addField("Requested by", song.req.tag, true)
@@ -155,7 +155,7 @@ module.exports = {
             let thing = new MessageEmbed()
                 .setAuthor("Started Playing Music!", "https://cdn.discordapp.com/attachments/807523516915384320/809777982930681876/ezgif.com-gif-maker.gif")
                 .setThumbnail(song.img)
-                .setColor("BLUE")
+                .setColor("RED")
                 .addField("Name", song.title, true)
                 .addField("Duration", song.duration, true)
                 .addField("Requested by", song.req.tag, true)
