@@ -1,7 +1,7 @@
 {
-  "name": "Gaara-Bot",
+  "name": "advanced-discord-music-bot",
   "version": "3.0.0",
-  "description": "A customised music bot",
+  "description": "Advanced discord music bot made by Sudhan for Coding With Sudhan 4k Views",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
