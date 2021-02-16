@@ -5,6 +5,7 @@ A high quality & unique music bot which can give you information about views and
 ## Table of content
 
 * [Commands](#commands)
+* [Installation](#installation)
 * [Author](#author)
 * [License](#license)
 
@@ -28,6 +29,10 @@ A high quality & unique music bot which can give you information about views and
 - `m!skipto` ~ Skip to the selected queue number
 - `m!stop`  ~ To stop the music and clearing the queue
 - `m!volume` ~ To change the server song queue volume
+
+## Installation
+
+- [Installation Guide](https://github.com/micky0singh/Gaara-Bot/blob/main/Installation/Setup.md)
 
 ## Fork Projects on
 [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/micky0singh/Gaara-Bot)
