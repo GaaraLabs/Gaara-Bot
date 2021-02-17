@@ -5,7 +5,7 @@ module.exports = {
         name: "help",
         description: "To show all commands",
         usage: "",
-        aliases: ["commands", "help music", "h", "pls music"]
+        aliases: ["music"]
     },
 
     run: async function(client, message, args){
@@ -20,7 +20,7 @@ module.exports = {
         .setAuthor("Commands of "+client.user.username, "https://cdn.discordapp.com/attachments/807523516915384320/809777982930681876/ezgif.com-gif-maker.gif")
         .setColor("RED")
         .setDescription(allcmds)
-        .setFooter(`To get info of each command you can do ${client.config.prefix}help [command] | Gaara Labs`)
+        .setFooter(`To get info of each command you can do ${client.config.prefix}help [command] | ❄️ Tødørøki 🔥`)
 
         if(!args[0])return message.channel.send(embed)
         else {
