@@ -2,7 +2,7 @@ const { MessageEmbed } = require('discord.js')
 
 module.exports = {
     info: {
-        name: "help",
+        name: "music",
         description: "To show all commands",
         usage: "",
         aliases: ["commands", "help music", "h", "pls music"]
