@@ -20,10 +20,18 @@ cd Gaara-Bot/
 # Install the dependencies
 npm install
 ```
+
+### Starting the application
+
+```bash
+# Run the bot
+node index.js
+```
+
 ### Configuration
 
 - After cloning the project and installing all dependencies, you need to add your bot token and prefix in `.env` file.
-- For some privacy reasons `help` file has been removed from bot but you can find it [Here](Secrets/help.js) 
+- For some privacy reasons `help` file has been removed from bot but you can find it [Here](././Secrets/help.js) 
 - In `help.js` edit line 23 and add footer of your choice.
 
 ```js
@@ -35,14 +43,6 @@ npm install
 
 - To Change your bot's status you need edit `ready.js` file which you can find [Here](events/ready.js)
 ```js
-
-
-### Starting the application
-
-```bash
-# Run the bot
-node index.js
-```
 
 ##
 
