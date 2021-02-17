@@ -6,7 +6,7 @@
 
 ## Getting started
 
-Make sure you have installed all required packages in your pc or virtual machine.
+Make sure you have installed all thr required packages in your pc or virtual machine.
 
 ### Installation
 
@@ -32,7 +32,7 @@ node index.js
 
 - After cloning the project and installing all dependencies, you need to add your bot token and prefix in `.env` file.
 - For some privacy reasons `help` file has been removed from bot but you can find it [Here](../Secrets/help.js).
-- In `help.js` edit line 23 and add footer of your choice.
+- In `help.js` edit line 23 to change footer of your help command.
 
 ```js
 // Add your footer
