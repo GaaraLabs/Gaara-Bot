@@ -14,7 +14,7 @@ Make sure you have installed all required packages in your pc or virtual machine
 # Clone the repository
 git clone https://github.com/micky0singh/Gaara-Bot.git
 
-# Enter into the directory.
+# Enter into the directory
 cd Gaara-Bot/
 
 # Install the dependencies
@@ -31,7 +31,7 @@ node index.js
 ### Configuration
 
 - After cloning the project and installing all dependencies, you need to add your bot token and prefix in `.env` file.
-- For some privacy reasons `help` file has been removed from bot but you can find it [Here](../Secrets/help.js) 
+- For some privacy reasons `help` file has been removed from bot but you can find it [Here](../Secrets/help.js).
 - In `help.js` edit line 23 and add footer of your choice.
 
 ```js
@@ -41,8 +41,8 @@ node index.js
 
 ### Changing bot status
 
-- To Change your bot's status you need edit `ready.js` file which you can find [Here](../events/ready.js)
-- In `ready.js` edit line xyz to change your bot's status and line xyz to change your bot's presence.
+- To Change your bot's status you need edit `ready.js` file which you can find [Here](../events/ready.js).
+- In `ready.js` edit line 3 to change your bot's status and line 4 to change your bot's presence.
 
 ```js
 // Change bot's status
@@ -54,4 +54,4 @@ node index.js
 
 ##
 
-Now you are all done to use your bot. If you face any bug or want to report contact me on Discord `MiCKY#4519` or email me at sahnisatinder2@gmail.com 🙃
+Now you are all done to use your bot. If you face any bug or want to report contact me on Discord `MiCKY#4519` or email me at sahnisatinder2@gmail.com. 🙃
