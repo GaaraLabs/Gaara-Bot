@@ -23,10 +23,12 @@ npm install
 ### Configuration
 
 After cloning the project and installing all dependencies, you need to add your bot token and prefix in `.env` file.
-Rename `example.help.js` to `help.js`. 
-in `help.js` edit line 5 like this
 
-```bash
+##
+Rename `example.help.js` to `help.js`. 
+In `help.js` edit line 5 like this
+
+```js
 # Add help command name
         name: "help",
 ```
