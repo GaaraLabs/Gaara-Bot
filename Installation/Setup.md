@@ -27,7 +27,7 @@ npm install
 - In `help.js` edit line 5 like this
 
 ```js
-//Add help command name
+// Add help command name
         name: "help",
 ```
 
