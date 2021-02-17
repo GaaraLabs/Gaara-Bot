@@ -41,8 +41,16 @@ node index.js
 
 ### Changing bot status
 
-- To Change your bot's status you need edit `ready.js` file which you can find [Here](events/ready.js)
+- To Change your bot's status you need edit `ready.js` file which you can find [Here](../events/ready.js)
+- In `ready.js` edit line xyz to change your bot's status and line xyz to change your bot's presence.
+
 ```js
+// Change bot's status
+  await client.user.setActivity("YOUR BOTS'S STATUS HERE", {
+
+// Change bot's presence | Can be LISTENING, WATCHING, PLAYING, STREAMING
+    type: "YOUR PRESENCE, SELECT ONE FROM ABOVE LINE",
+```
 
 ##
 
