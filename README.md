@@ -32,7 +32,7 @@ A high quality & unique music bot which can give you information about views and
 
 ## Installation
 
-- [Installation Guide](https://github.com/micky0singh/Gaara-Bot/blob/main/Installation/Setup.md)
+- [Installation Guide](Installation/Setup.md)
 
 ## Fork Projects on
 [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/micky0singh/Gaara-Bot)
