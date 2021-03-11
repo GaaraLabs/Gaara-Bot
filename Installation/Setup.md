@@ -6,7 +6,7 @@
 
 ## Getting started
 
-Make sure you have installed all thr required packages in your pc or virtual machine.
+Make sure you have installed all the required packages in your pc or virtual machine.
 
 ### Installation
 
