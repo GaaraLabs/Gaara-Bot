@@ -41,7 +41,7 @@ A high quality & unique music bot which can give you information about views and
 
 ## Author
 
-`MiCKY#4519`
+`MiCKY#4996`
 
 ## License
 
