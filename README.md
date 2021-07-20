@@ -34,10 +34,16 @@ A high quality & unique music bot which can give you information about views and
 
 - [Installation Guide](Installation/Setup.md)
 
-## Fork Projects on
-[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/micky0singh/Gaara-Bot)
-[![Run on Repl.it](https://repl.it/badge/github/micky0singh/Gaara-Bot)](https://repl.it/github/micky0singh/Gaara-Bot)
+## Fork Projects on 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/micky0singh/Gaara-Bot)
+
+[![Run on Repl.it](https://repl.it/badge/github/micky0singh/Gaara-Bot)](https://repl.it/github/micky0singh/Gaara-Bot)
+
+[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/micky0singh/Gaara-Bot)
+
+
+
+
 
 ## Author
 
