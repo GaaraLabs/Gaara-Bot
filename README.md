@@ -47,7 +47,7 @@ A high quality & unique music bot which can give you information about views and
 
 ## Author
 
-`MiCKY#4996`
+[Micky Sahni](https://discordapp.com/users/612803327675334673)
 
 ## License
 
